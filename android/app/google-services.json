@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "336525327991",
+    "firebase_url": "https://nonoshire-77b64.firebaseio.com",
+    "project_id": "nonoshire-77b64",
+    "storage_bucket": "nonoshire-77b64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336525327991:android:28aa842abe621b5029d072",
+        "android_client_info": {
+          "package_name": "com.example.Nonoshire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "336525327991-1b09c6lqogaahc8t9madn7i54na0cg35.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsZ3xIfPWQNuE_UBitMFsvs78ErJjYmPM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "336525327991-1b09c6lqogaahc8t9madn7i54na0cg35.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

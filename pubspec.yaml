@@ -1,0 +1,157 @@
+name: Nonoshire
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+  google_speech: ^1.2.1
+  sound_stream: ^0.2.0
+  cloud_firestore: ^0.14.0+2
+  firebase_core: ^0.5.0
+  provider: ^4.3.2+2
+  animated_widgets: ^1.0.6
+  vibration: ^1.5.0
+  bordered_text: ^1.0.0
+  shared_preferences: ^0.5.12
+  material_design_icons_flutter: ^4.0.5655
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - Assets/faces/man/meanMan1.png
+    - Assets/faces/woman/meanWoman2.png
+    - Assets/faces/woman/meanWoman1.png
+    - Assets/faces/woman/angryWoman1.png
+    - Assets/faces/woman/angryWoman2.png
+    - Assets/faces/woman/fearWoman2.png
+    - Assets/faces/woman/fearWoman1.png
+    - Assets/faces/woman/screamWoman1.png
+    - Assets/faces/woman/screamWoman2.png
+    - Assets/faces/woman/surpriseWoman1.png
+    - Assets/faces/woman/surpriseWoman2.png
+    - Assets/faces/woman/cryingWoman.png
+    - Assets/faces/woman/cryingWoman2.png
+    - Assets/serifu/woman_serifu/serifu_0.png
+    - Assets/serifu/woman_serifu/serifu_1_1.png
+    - Assets/serifu/woman_serifu/serifu_1_2.png
+    - Assets/serifu/woman_serifu/serifu_1_3.png
+    - Assets/serifu/woman_serifu/serifu_2_1.png
+    - Assets/serifu/woman_serifu/serifu_2_2.png
+    - Assets/serifu/woman_serifu/serifu_2_3.png
+    - Assets/serifu/woman_serifu/serifu_2_4.png
+    - Assets/serifu/woman_serifu/serifu_3_1.png
+    - Assets/serifu/woman_serifu/serifu_3_2.png
+    - Assets/serifu/woman_serifu/serifu_4_1.png
+    - Assets/serifu/woman_serifu/serifu_4_2.png
+    - Assets/serifu/woman_serifu/serifu_4_3.png
+    - Assets/serifu/woman_serifu/serifu_4_4.png
+    - Assets/serifu/woman_serifu/serifu_5_1.png
+    - Assets/serifu/woman_serifu/serifu_5_2.png
+    - Assets/serifu/woman_serifu/serifu_5_3.png
+    - Assets/serifu/woman_serifu/serifu_5_4.png
+    - Assets/serifu/woman_serifu/serifu_6_1.png
+    - Assets/serifu/woman_serifu/serifu_6_2.png
+    - Assets/serifu/woman_serifu/serifu_6_3.png
+    - Assets/serifu/woman_serifu/serifu_7_1.png
+    - Assets/serifu/woman_serifu/serifu_7_2.png
+    - Assets/serifu/woman_serifu/serifu_8_1.png
+    - Assets/serifu/woman_serifu/serifu_8_2.png
+    - Assets/serifu/woman_serifu/serifu_9_1.png
+    - Assets/serifu/woman_serifu/serifu_9_2.png
+    - Assets/serifu/woman_serifu/serifu_9_3.png
+    - Assets/serifu/woman_serifu_after/serifu_after_1.png
+    - Assets/serifu/woman_serifu_after/serifu_after_2.png
+    - Assets/serifu/woman_serifu_after/serifu_after_3.png
+    - Assets/serifu/woman_serifu_after/serifu_after_4.png
+    - Assets/serifu/woman_serifu_after/serifu_after_5.png
+    - Assets/JSON/Nonoshire-7b56c8272062.json
+    - Assets/background/office_bg2.png
+    - Assets/background/office_bg3.png
+    - Assets/background/Nonoshire_top_bg.jpg
+    - Assets/background/Nonoshire_title4.png
+    - Assets/background/Nonoshire_title5.png
+    - Assets/background/Nonoshire_title6.png
+    - Assets/background/Nonoshire_subtitle.png
+    - Assets/background/Nonoshire_subtitle2.png
+    - Assets/background/select_title.png
+    - Assets/background/Nonoshire_end_bg.jpg
+    - Assets/button/Ranking_button_top.png
+    - Assets/button/Ranking_button_top2.png
+    - Assets/button/StartButton.png
+    - Assets/button/startButton2.png
+    - Assets/button/retryButton.png
+    - Assets/button/topButton.png
+    - Assets/button/registerButton.png
+    - Assets/damage/damage1.png
+    - Assets/damage/damage2.png
+    - Assets/damage/damage3.png
+    - Assets/damage/damage4.png
+    - Assets/damage/damage5.png
+    - Assets/attack/stone.png
+    - Assets/Icon/stress_icon_left.png
+    - Assets/Icon/stress_icon_right.png
+    - Assets/Icon/no1_crown.png
+    - Assets/Icon/no2_crown.png
+    - Assets/Icon/no3_crown.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: IBMPlexMono
+      fonts:
+        - asset: fonts/IBMPlexMono-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
